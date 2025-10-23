@@ -43,12 +43,12 @@ border-color:white;
 .ho7{
   /* width: 20% !important; */
   font-size:100% !important;
-  padding: 10px;
-  border-radius: 30px;
+  padding: 10px !important;
+  border-radius: 30px !important;
   /* margin-right: 20px !important; */
-  background-color: transparent;
-  color: rgb(215, 219, 209);
-  border-color: #e4d1d1;
+  background-color: transparent !important;
+  color: rgb(215, 219, 209) !important;
+  border-color: #e4d1d1 !important;
 }
 
 .menu{
@@ -172,6 +172,9 @@ border-color:white;
   background-color: rgba(31, 41, 55, .4);
   border-color: rgba(55, 65, 81, .5) !important;
     border-radius: 5%;
+}
+#home{
+  height: 80vh !important;
 }
 
 .iconn{

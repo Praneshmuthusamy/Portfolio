@@ -22,16 +22,16 @@ const Homee = () => {
   }, []);
   return (
     <div>
-          <div class="d-flex justify-content-center">
-        <div class=" container row row-cols-lg-2 row-cols-sm-1 my-5 py-5 px-0">
-            <div class="col  my-5">
-                 <span class='ho1 p-0 col'>Hi, I'm </span>
+          <div class="d-flex justify-content-center" id="home">
+        <div class=" container row row-cols-lg-2 row-cols-sm-1 my-5 py-5 px-0 ">
+            <div class="col d-flex justify-content-center  flex-column  my-5">
+                 <span class='ho1 p-0 col '>Hi, I'm </span>
                <span class='ho2 p-0 col'>Pranesh M </span>
                <h5 class='ho3 col p-0'>I'm passionate about <span className='ho4'>Building Digital Experience..</span></h5>
                <p class='ho5 col p-0'>I'm enthusiastic about discovering new digital technologies and expanding my knowledge of innovative, creative design principles. My curiosity drives me to continuously learn about modern technologies and their potential to create meaningful experiences.</p> 
               <div class=" row row-cols-1 row-cols-md-3 gap-4 mb-5">
               <button class='ho6 col p-3'>Resume</button>
-              <button class='ho7 col p-3 '>Connect with me &rarr; </button>
+              <button class='ho7 col p-3 '><a href='#contacts' class='ho7 text-decoration-none '>Connect with me &rarr; </a></button>
             </div>
             </div>  
             <div class="col d-flex justify-content-center align-items-center px-0">
@@ -69,7 +69,7 @@ const Homee = () => {
         </div>
     </div>
         {/* ------------------------------------------------------------------------------- */}
-               <div class='d-flex flex-column align-items-center div3 mt-5 pt-5 border-top border-primary'>
+               <div class='d-flex flex-column align-items-center div3 mt-5 pt-5 border-top border-primary' id="aboutme">
           <h1 class="ho9 ">About <span className='ho10'>Me</span></h1>
           <hr class=" ho11 " />
         </div>
@@ -133,7 +133,7 @@ const Homee = () => {
         </div>
     </div>
         {/* ------------------------------------------------------------------------------- */}
-                     <div class='d-flex flex-column align-items-center div3 mt-5 pt-5 border-top border-primary'>
+                     <div class='d-flex flex-column align-items-center div3 mt-5 pt-5 border-top border-primary' id="projects">
           <h1 class="ho9 ">My <span className='ho10'>Projects</span></h1>
           <hr class=" ho11 " />
           <p class="w-25 text-center text-light">Here's a selection of projects that showcase my skills and passion for building exceptional digital experiences across different platforms.</p>
@@ -171,7 +171,7 @@ const Homee = () => {
   </div>
 </div>
  <div class='d-flex flex-column align-items-center div3  pt-5 '>
-          <button class='ho7 align-item-center'>View More Projects <i class="fa-brands fa-github fs-4"></i></button>
+          <button class='ho7 align-item-center'>< Link to="https://github.com/Praneshmuthusamy" class="text-decoration-none ho7"> View More Projects <i class="fa-brands fa-github fs-4"></i></Link></button>
              </div>
 {/* ------------------------------------------------------------------------------------------------------------------- */}
   <div class='d-flex flex-column align-items-center div3 mt-5 pt-5 border-top border-primary'>
@@ -211,7 +211,7 @@ const Homee = () => {
     </div>
   </div>
   {/* ----------------------------------------------------------------------------------- */}
-  <div class='d-flex flex-column align-items-center div3 mt-5 pt-5 border-top border-primary'>
+  <div class='d-flex flex-column align-items-center div3 mt-5 pt-5 border-top border-primary' id="contacts">
     <h1 class="ho9 ">Connect <span className='ho10'>With Me</span></h1>
     <hr class=" ho11 " />
     <p class="w-25 text-center text-light">Feel free to connect with me on these platforms to discuss tech, share ideas, or just say hello!</p>
